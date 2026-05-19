@@ -1,0 +1,11 @@
+name = "goodcharacter-api"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+[vars]
+API_BASE_URL = "http://localhost:8000"
+INTERNAL_API_KEY = "dev-internal-key-12345"
+
+[[r2_buckets]]
+binding = "ASSETS_BUCKET"
+bucket_name = "goodcharacter-assets"
